@@ -1,0 +1,32 @@
+div.cells{
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+
+div.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+div.squareGrid{
+    display: flex;
+}
+
+.btns .resetBtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    display: none;
+}
+
+.btns .newBtn {
+    padding: 5px 10px;
+    font-size: 16px;
+    display: none;
+    margin-right: 8px;
+}
